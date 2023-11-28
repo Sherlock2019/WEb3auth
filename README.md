@@ -23,6 +23,8 @@ These clusters is orchistracted via a master coordinator that communicates with 
 
 here are my guessing about your  Web3auth underlying infrastructure
 
+
+```
 1/  AWS solution 
 
 +-----------------------------------------------------------+
@@ -68,7 +70,7 @@ here are my guessing about your  Web3auth underlying infrastructure
 |                                                           |
 +-----------------------------------------------------------+
 
-
+```
 
 Explanation of AWS services used:
 
@@ -90,9 +92,9 @@ Each of these AWS services has been chosen to match the function and requirement
 
 
 
-2 / GCP architecture woth Web3authnode 
+2 / GCP architecture  Web3authnode 
 
-
+```
 +------------------------------------------------------------------+
 |                           Web3Auth Node                          |
 |   Regionally Distributed (GKE with Autopilot/Cloud Run)          |
@@ -135,6 +137,9 @@ Each of these AWS services has been chosen to match the function and requirement
 |  +-----------------------------------------+                     |
 |                                                                  |
 +------------------------------------------------------------------+
+
+
+```
 
 Explanation of GCP services used:
 
